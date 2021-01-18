@@ -3,15 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GoF", "GoF", "{02C1646D-2A56-4FFB-887B-EA68CD54D163}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral", "Behavioral", "{8AB06341-6ADC-4085-9C8E-0AB6E399C6DC}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{CD0BA675-A2CB-4992-BD1C-3D8473DE0D12}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{D775344D-8CD3-4F08-A78A-6238F210DCF9}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chain of Responsibility", "GoF\Behavioral\Chain of Responsibility\Chain of Responsibility.csproj", "{5338B929-0973-40BA-BBC2-59275C830A6C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chain of Responsibility", "Chain of Responsibility\Chain of Responsibility.csproj", "{5338B929-0973-40BA-BBC2-59275C830A6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,12 +18,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{8AB06341-6ADC-4085-9C8E-0AB6E399C6DC} = {02C1646D-2A56-4FFB-887B-EA68CD54D163}
-		{CD0BA675-A2CB-4992-BD1C-3D8473DE0D12} = {02C1646D-2A56-4FFB-887B-EA68CD54D163}
-		{D775344D-8CD3-4F08-A78A-6238F210DCF9} = {02C1646D-2A56-4FFB-887B-EA68CD54D163}
-		{5338B929-0973-40BA-BBC2-59275C830A6C} = {8AB06341-6ADC-4085-9C8E-0AB6E399C6DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {63CEC512-D5FC-49E1-8849-8E73A1371CF5}
