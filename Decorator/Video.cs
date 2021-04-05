@@ -5,7 +5,6 @@ using System.Text;
 namespace Decorator
 {
     class Video : LibraryItem
-
     {
         private string _director;
         private string _title;

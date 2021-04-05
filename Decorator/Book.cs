@@ -5,7 +5,6 @@ using System.Text;
 namespace Decorator
 {
     class Book : LibraryItem
-
     {
         private string _author;
         private string _title;

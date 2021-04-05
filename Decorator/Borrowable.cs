@@ -5,7 +5,6 @@ using System.Text;
 namespace Decorator
 {
     class Borrowable : Decorator
-
     {
         protected List<string> borrowers = new List<string>();
 

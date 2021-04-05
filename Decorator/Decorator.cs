@@ -5,7 +5,6 @@ using System.Text;
 namespace Decorator
 {
     abstract class Decorator : LibraryItem
-
     {
         protected LibraryItem libraryItem;
 

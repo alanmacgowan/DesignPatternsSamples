@@ -5,7 +5,6 @@ using System.Text;
 namespace Decorator
 {
     abstract class LibraryItem
-
     {
         private int _numCopies;
 
