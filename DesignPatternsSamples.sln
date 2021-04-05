@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chain of Responsibility", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specification", "Specification\Specification.csproj", "{F382C2E0-EF66-47DA-B3FC-81611B0097A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{5F4D2131-D610-4D74-916C-11B928268730}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F382C2E0-EF66-47DA-B3FC-81611B0097A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F382C2E0-EF66-47DA-B3FC-81611B0097A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F382C2E0-EF66-47DA-B3FC-81611B0097A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F4D2131-D610-4D74-916C-11B928268730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F4D2131-D610-4D74-916C-11B928268730}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F4D2131-D610-4D74-916C-11B928268730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F4D2131-D610-4D74-916C-11B928268730}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
