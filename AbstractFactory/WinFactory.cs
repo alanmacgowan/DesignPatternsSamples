@@ -4,14 +4,14 @@ using System.Text;
 
 namespace AbstractFactory
 {
-    class WinFactory : GUIFactory
+    class WinFactory : IGUIFactory
     {
-        public Button CreateButton()
+        public IButton CreateButton()
         {
             return new WinButton();
         }
 
-        public Checkbox CreateCheckbox()
+        public ICheckbox CreateCheckbox()
         {
             return new WinCheckbox();
         }

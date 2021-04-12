@@ -16,7 +16,7 @@ namespace AbstractFactory
 
         }
 
-        private static GUIFactory GetFactory(OSType osType)
+        private static IGUIFactory GetFactory(OSType osType)
         {
             switch (osType)
             {

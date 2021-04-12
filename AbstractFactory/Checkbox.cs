@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AbstractFactory
 {
-    public interface Checkbox
+    public interface ICheckbox
     {
         void Paint();
     }

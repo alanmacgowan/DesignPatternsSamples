@@ -4,9 +4,9 @@ using System.Text;
 
 namespace AbstractFactory
 {
-    public interface GUIFactory
+    public interface IGUIFactory
     {
-        Button CreateButton();
-        Checkbox CreateCheckbox();
+        IButton CreateButton();
+        ICheckbox CreateCheckbox();
     }
 }

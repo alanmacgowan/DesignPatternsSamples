@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AbstractFactory
 {
-    class WinButton : Button
+    class WinButton : IButton
     {
         public void Paint()
         {

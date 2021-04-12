@@ -4,14 +4,14 @@ using System.Text;
 
 namespace AbstractFactory
 {
-    class MacFactory : GUIFactory
+    class MacFactory : IGUIFactory
     {
-        public Button CreateButton()
+        public IButton CreateButton()
         {
             return new MacButton();
         }
 
-        public Checkbox CreateCheckbox()
+        public ICheckbox CreateCheckbox()
         {
             return new MacCheckbox();
         }

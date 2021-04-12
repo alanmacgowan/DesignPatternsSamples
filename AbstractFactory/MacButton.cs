@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AbstractFactory
 {
-    class MacButton : Button
+    class MacButton : IButton
     {
         public void Paint()
         {
