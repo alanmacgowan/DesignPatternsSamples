@@ -6,9 +6,7 @@ namespace Proxy
     {
         static void Main(string[] args)
         {
-            IThirdPartyYouTubeService videoService = new ThirdPartyYouTubeService();
-            IThirdPartyYouTubeService cachedVideoService = new CachedYouTubeService(videoService);
-            var manager = new YouTubeManager(cachedVideoService);
+            var manager = new YouTubeManager();
 
             Console.ReadLine();
             manager.ProcessVideoPage(1);

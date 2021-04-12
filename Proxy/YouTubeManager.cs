@@ -8,29 +8,31 @@ namespace Proxy
     {
 
         IThirdPartyYouTubeService _videoService;
+        IThirdPartyYouTubeService _cachedVideoService;
 
-        public YouTubeManager(IThirdPartyYouTubeService videoService)
+        public YouTubeManager()
         {
-            _videoService = videoService;
+            _videoService = new ThirdPartyYouTubeService();
+            _cachedVideoService = new CachedYouTubeService(_videoService);
         }
 
         public Video RenderVideoPage(int id)
         {
-            var video = _videoService.GetVideoInfo(id);
+            var video = _cachedVideoService.GetVideoInfo(id);
             return video;
         }
 
         public List<Video> RenderListPanel()
         {
-            var list = _videoService.ListVideos();
+            var list = _cachedVideoService.ListVideos();
             return list;
         }
 
         public void ProcessVideoPage(int id)
         {
             _videoService.DownloadVideo(id);
-            var list = _videoService.ListVideos();
-            var video = _videoService.GetVideoInfo(id);
+            var list = _cachedVideoService.ListVideos();
+            var video = _cachedVideoService.GetVideoInfo(id);
         }
     }
 }
