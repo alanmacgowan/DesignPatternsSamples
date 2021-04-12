@@ -7,15 +7,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Chain of Responsibility", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Specification", "Specification\Specification.csproj", "{F382C2E0-EF66-47DA-B3FC-81611B0097A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{5F4D2131-D610-4D74-916C-11B928268730}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Decorator\Decorator.csproj", "{5F4D2131-D610-4D74-916C-11B928268730}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer", "Observer\Observer.csproj", "{15476863-051D-4EE9-9602-C7737C5E9BEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Observer", "Observer\Observer.csproj", "{15476863-051D-4EE9-9602-C7737C5E9BEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{47D72092-94E9-4F59-92D6-4A4A7383AEC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strategy", "Strategy\Strategy.csproj", "{47D72092-94E9-4F59-92D6-4A4A7383AEC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template", "Template\Template.csproj", "{6AD85F19-684B-44ED-A387-692E9DA5503B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Template", "Template\Template.csproj", "{6AD85F19-684B-44ED-A387-692E9DA5503B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{AA7CE0AB-DB75-4E61-9068-311385E50A16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{AA7CE0AB-DB75-4E61-9068-311385E50A16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{5CA0081E-ECDB-4829-8E27-8F521EEACF63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{AA7CE0AB-DB75-4E61-9068-311385E50A16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA7CE0AB-DB75-4E61-9068-311385E50A16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA7CE0AB-DB75-4E61-9068-311385E50A16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CA0081E-ECDB-4829-8E27-8F521EEACF63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CA0081E-ECDB-4829-8E27-8F521EEACF63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CA0081E-ECDB-4829-8E27-8F521EEACF63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CA0081E-ECDB-4829-8E27-8F521EEACF63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
