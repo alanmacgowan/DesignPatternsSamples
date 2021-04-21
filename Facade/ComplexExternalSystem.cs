@@ -60,6 +60,7 @@ namespace Facade
         internal object Fix(object result)
         {
             Console.WriteLine("Called Fix");
+            return null;
         }
     }
 
