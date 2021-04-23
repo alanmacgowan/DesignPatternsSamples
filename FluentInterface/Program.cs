@@ -8,10 +8,10 @@ namespace FluentInterface
         {
             FluentEmployee obj = new FluentEmployee();
                 
-            obj.NameOfTheEmployee("Anurag Mohanty")
-                    .Born("10/10/1992")
-                    .WorkingOn("IT")
-                    .StaysAt("Mumbai-India");
+            obj.NameOfTheEmployee("Juan Perez")
+                    .Born("02/11/1977")
+                    .WorkingOn("Dev")
+                    .StaysAt("Argentina");
 
             Console.Read();
         }
