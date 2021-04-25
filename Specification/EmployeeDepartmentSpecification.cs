@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Specification
 {
-    public class EmployeeDepartmentSpecification : IEmployeeSpecification
+    public class EmployeeDepartmentSpecification : ISpecification<Employee>
     {
         private readonly string _department;
 

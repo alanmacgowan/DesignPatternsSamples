@@ -4,9 +4,9 @@ using System.Text;
 
 namespace Specification
 {
-    public interface IEmployeeSpecification
+    public interface ISpecification<T> where T : class
     {
-        bool IsSatisfiedBy(Employee employee);
+        bool IsSatisfiedBy(T entity);
     }
 
 }

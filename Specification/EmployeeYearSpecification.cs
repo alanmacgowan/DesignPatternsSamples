@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Specification
 {
-    public class EmployeeYearSpecification : IEmployeeSpecification
+    public class EmployeeYearSpecification : ISpecification<Employee>
     {
         private readonly int _year;
 

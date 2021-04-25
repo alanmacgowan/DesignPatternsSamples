@@ -6,7 +6,7 @@ namespace Specification
 {
     public class EmployeeService
     {
-        public static List<Employee> GetEmployeeBy(IEmployeeSpecification specification, Employee[] employees)
+        public static List<Employee> GetEmployeeBy(ISpecification<Employee> specification, Employee[] employees)
         {
             List<Employee> NeededEmployees = new List<Employee>();
 
