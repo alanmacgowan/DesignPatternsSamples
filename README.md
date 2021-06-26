@@ -1,7 +1,7 @@
 # Design Patterns Samples
 Repository with sample implementations of different Design Patterns in C#.
 
-* [Proxy](Proxy/README.md)
+* [Proxy](Proxy/)
 
 ## Resources:
 ### Sites
