@@ -1,7 +1,24 @@
 # Design Patterns Samples
 Repository with sample implementations of different Design Patterns in C#.
 
-* [Proxy](Proxy/)
+* [AbstractFactory](AbstractFactory/)
+* [Adapter](Adapter/)
+* [Bridge](Bridge/)
+* [Chain of Responsibility](Chain%20of%20Responsibility/)
+* [Command](Command/)
+* [Composite](Composite/)
+* [Decorator](Decorator/)
+* [Facade](Facade/)
+* [FluentInterface](FluentInterface/)
+* [Flyweight](Flyweight/)
+* [Observer](Observer/)
+* [Prototype](Prototype/)
+* [Repository](Repository/)
+* [Singleton](Singleton/)
+* [Specification](Specification/)
+* [State](State/)
+* [Strategy](Strategy/)
+* [Template](Template/)
 
 ## Resources:
 ### Sites
