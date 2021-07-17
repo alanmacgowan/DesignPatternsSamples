@@ -5,5 +5,13 @@ Lets you provide a substitute or placeholder for another object. A proxy control
 ### Diagram
 ![image info](./Proxy_UML.gif)
 
+### When to use it
+* Lazy initialization (virtual proxy). This is when you have a heavyweight service object that wastes system resources by being always up, even though you only need it from time to time.
+* Access control (protection proxy). This is when you want only specific clients to be able to use the service object.
+* Local execution of a remote service (remote proxy). This is when the service object is located on a remote server.
+* Logging requests (logging proxy). This is when you want to keep a history of requests to the service object.
+* Caching request results (caching proxy). This is when you need to cache results of client requests and manage the life cycle of this cache, especially if results are quite large.
+* Smart reference. This is when you need to be able to dismiss a heavyweight object once there are no clients that use it.
+
 ### Resources
 * https://refactoring.guru/design-patterns/proxy

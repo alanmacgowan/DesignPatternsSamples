@@ -5,5 +5,8 @@ Lets you fit more objects into the available amount of RAM by sharing common par
 ### Diagram
 ![image info](./Flyweight_UML.png)
 
+### When to use it
+* When your program must support a huge number of objects which barely fit into available RAM.
+
 ### Resources
 * https://refactoring.guru/design-patterns/flyweight
