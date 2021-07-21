@@ -13,6 +13,7 @@ Repository with sample implementations of different Design Patterns in C#.
 * [Flyweight](Flyweight/)
 * [Observer](Observer/)
 * [Prototype](Prototype/)
+* [Proxy](Proxy/)
 * [Repository](Repository/)
 * [Singleton](Singleton/)
 * [Specification](Specification/)
