@@ -91,6 +91,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "State", "State", "{64DB273D
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Template", "Template", "{6C7FE78B-D105-41DC-B6FB-413DA08481BD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediator", "Mediator", "{8C3B4A08-7971-4128-AE3E-6D993508094A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mediator_1", "Mediator\Mediator_1.csproj", "{6E185F51-83FA-4835-8C72-567FBC3ADEBC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{95B088D1-2045-419F-8866-B44BCA3DD6AE}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -181,6 +190,10 @@ Global
 		{C8524A61-1B10-49DB-AF29-5EA10E341E21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8524A61-1B10-49DB-AF29-5EA10E341E21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8524A61-1B10-49DB-AF29-5EA10E341E21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E185F51-83FA-4835-8C72-567FBC3ADEBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E185F51-83FA-4835-8C72-567FBC3ADEBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E185F51-83FA-4835-8C72-567FBC3ADEBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E185F51-83FA-4835-8C72-567FBC3ADEBC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -207,6 +220,7 @@ Global
 		{0EBA0A64-EB91-4C2A-95EA-F36E05F63C30} = {F0EF75E1-6524-4087-A990-56648A852022}
 		{673B33AF-C983-41AA-A510-5E57E9646106} = {40BDFFC3-C4C1-4CA7-889D-CBFB882E824C}
 		{C8524A61-1B10-49DB-AF29-5EA10E341E21} = {012A3965-ED5D-493E-9DA2-D4A8640D5EB3}
+		{6E185F51-83FA-4835-8C72-567FBC3ADEBC} = {8C3B4A08-7971-4128-AE3E-6D993508094A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {63CEC512-D5FC-49E1-8849-8E73A1371CF5}
