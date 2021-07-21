@@ -16,6 +16,7 @@ Repository with sample implementations of different Design Patterns in C#.
 * [Prototype](Prototype/)
 * [Proxy](Proxy/)
 * [Repository](Repository/)
+* [Rules Engine](RulesEngine/)
 * [Singleton](Singleton/)
 * [Specification](Specification/)
 * [State](State/)
