@@ -11,6 +11,7 @@ Repository with sample implementations of different Design Patterns in C#.
 * [Facade](Facade/)
 * [FluentInterface](FluentInterface/)
 * [Flyweight](Flyweight/)
+* [Mediator](Mediator/)
 * [Observer](Observer/)
 * [Prototype](Prototype/)
 * [Proxy](Proxy/)
