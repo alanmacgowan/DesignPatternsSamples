@@ -10,3 +10,4 @@ Lets you split up conditional logic into explicit rule classes.
 
 ### Resources
 * https://app.pluralsight.com/library/courses/c-sharp-design-patterns-rules-pattern
+* https://github.com/NRules/NRules

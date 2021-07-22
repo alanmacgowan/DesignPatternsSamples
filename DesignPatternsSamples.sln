@@ -104,6 +104,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Rules Engine", "Rules Engin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RulesEngine", "RulesEngine\RulesEngine.csproj", "{4D83A85D-8C28-4297-897E-726E481F72A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RulesEngine_NRules", "RulesEngine_NRules\RulesEngine_NRules.csproj", "{FA2911D0-5911-44A2-98C6-2CBDD1EA7CBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -202,6 +204,10 @@ Global
 		{4D83A85D-8C28-4297-897E-726E481F72A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D83A85D-8C28-4297-897E-726E481F72A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D83A85D-8C28-4297-897E-726E481F72A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA2911D0-5911-44A2-98C6-2CBDD1EA7CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA2911D0-5911-44A2-98C6-2CBDD1EA7CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA2911D0-5911-44A2-98C6-2CBDD1EA7CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA2911D0-5911-44A2-98C6-2CBDD1EA7CBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -230,6 +236,7 @@ Global
 		{C8524A61-1B10-49DB-AF29-5EA10E341E21} = {012A3965-ED5D-493E-9DA2-D4A8640D5EB3}
 		{6E185F51-83FA-4835-8C72-567FBC3ADEBC} = {8C3B4A08-7971-4128-AE3E-6D993508094A}
 		{4D83A85D-8C28-4297-897E-726E481F72A7} = {D2E2D64A-B3B0-48E1-A6DF-424361698E6C}
+		{FA2911D0-5911-44A2-98C6-2CBDD1EA7CBB} = {D2E2D64A-B3B0-48E1-A6DF-424361698E6C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {63CEC512-D5FC-49E1-8849-8E73A1371CF5}
