@@ -35,6 +35,7 @@ Repository with sample implementations of different Design Patterns in C#.
 ### Videos
 * [Pluralsight: Design Patterns in C#](https://app.pluralsight.com/paths/skills/design-patterns-in-c)
 * [Christopher Okhravi: Design Patterns in Object Oriented Programming](https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc)
+* [Udemy: Design Patterns in C# and .NET](https://www.udemy.com/course/design-patterns-csharp-dotnet/)
 
 ### Books
 * [Head First Design Patterns](https://www.oreilly.com/library/view/head-first-design/0596007124/)
