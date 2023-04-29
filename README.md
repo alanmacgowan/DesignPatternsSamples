@@ -22,6 +22,7 @@ Repository with sample implementations of different Design Patterns in C#.
 * [State](State/)
 * [Strategy](Strategy/)
 * [Template](Template/)
+* [Visitor](Visitor/)
 
 ## Resources:
 ### Sites
