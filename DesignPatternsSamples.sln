@@ -120,8 +120,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Specification_2", "Specific
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visitor", "Visitor", "{B5506D21-A000-480C-AD76-53D3C64EF63A}"
 	ProjectSection(SolutionItems) = preProject
-		Visitor\Visitor\README.md = Visitor\Visitor\README.md
-		Visitor\Visitor\Visitor_design_pattern.svg.png = Visitor\Visitor\Visitor_design_pattern.svg.png
+		Visitor\README.md = Visitor\README.md
+		Visitor\Visitor_design_pattern.svg.png = Visitor\Visitor_design_pattern.svg.png
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Visitor\Visitor\Visitor.csproj", "{99D0C862-9806-4B34-B396-6007481AE6B0}"
