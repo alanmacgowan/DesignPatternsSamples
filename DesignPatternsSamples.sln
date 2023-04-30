@@ -90,6 +90,10 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "State", "State", "{64DB273D-7D8A-484B-90D3-DEBA81223326}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Template", "Template", "{6C7FE78B-D105-41DC-B6FB-413DA08481BD}"
+	ProjectSection(SolutionItems) = preProject
+		Template\README.md = Template\README.md
+		Template\Template_UML.png = Template\Template_UML.png
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mediator", "Mediator", "{8C3B4A08-7971-4128-AE3E-6D993508094A}"
 EndProject
