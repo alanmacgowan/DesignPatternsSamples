@@ -118,6 +118,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Visitor", "Visitor", "{B550
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor", "Visitor\Visitor.csproj", "{6C9AE8C9-1A55-4A00-893E-C809CA04CC11}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visitor_2", "Visitor_2\Visitor_2.csproj", "{A4F46B6E-BBD6-488D-A27B-C83F380B647A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -232,6 +234,10 @@ Global
 		{6C9AE8C9-1A55-4A00-893E-C809CA04CC11}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6C9AE8C9-1A55-4A00-893E-C809CA04CC11}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6C9AE8C9-1A55-4A00-893E-C809CA04CC11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4F46B6E-BBD6-488D-A27B-C83F380B647A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F46B6E-BBD6-488D-A27B-C83F380B647A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F46B6E-BBD6-488D-A27B-C83F380B647A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F46B6E-BBD6-488D-A27B-C83F380B647A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -264,6 +270,7 @@ Global
 		{ADF8D6C8-8A13-4993-81F8-D386E8CC7945} = {156E9D9D-3164-49BE-9150-CDF3FEA854F5}
 		{A7F752AA-3BE2-4D0E-BC76-93853FECAFE1} = {156E9D9D-3164-49BE-9150-CDF3FEA854F5}
 		{6C9AE8C9-1A55-4A00-893E-C809CA04CC11} = {B5506D21-A000-480C-AD76-53D3C64EF63A}
+		{A4F46B6E-BBD6-488D-A27B-C83F380B647A} = {B5506D21-A000-480C-AD76-53D3C64EF63A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {63CEC512-D5FC-49E1-8849-8E73A1371CF5}
