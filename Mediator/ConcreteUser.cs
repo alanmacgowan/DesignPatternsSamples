@@ -4,7 +4,7 @@ namespace Mediator_1
 {
     public class ConcreteUser : User
     {
-        public ConcreteUser(FacebookGroupMediator mediator, string name) : base(mediator, name)
+        public ConcreteUser(IFacebookGroupMediator mediator, string name) : base(mediator, name)
         {
         }
         public override void Receive(string message)

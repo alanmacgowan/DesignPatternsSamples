@@ -129,6 +129,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor_2", "Visitor\Visitor_2\Visitor_2.csproj", "{5E89EDA8-3FF8-46F8-9CED-181931FAD13F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{41806B60-AB02-4CEC-AEF0-F6BDF3A8F1D2}"
+	ProjectSection(SolutionItems) = preProject
+		Builder\builder.png = Builder\builder.png
+		Builder\README.md = Builder\README.md
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder\Builder.csproj", "{2D937AAA-0E2D-46B2-8198-E8CCA8B4B144}"
 EndProject

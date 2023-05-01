@@ -1,4 +1,4 @@
-﻿abstract class DocumentBuilder
+﻿abstract class DocumentBuilder : IDocumentBuilder
 {
     protected Document _document;
 
@@ -7,8 +7,8 @@
         get { return _document; }
     }
 
-    public abstract void BuildHeader();
-    public abstract void BuildBody();
-    public abstract void BuildMenu();
-    public abstract void BuildFooter();
+    public abstract IDocumentBuilder BuildHeader();
+    public abstract IDocumentBuilder BuildBody();
+    public abstract IDocumentBuilder BuildMenu();
+    public abstract IDocumentBuilder BuildFooter();
 }

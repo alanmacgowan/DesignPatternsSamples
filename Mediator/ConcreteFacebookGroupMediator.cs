@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Mediator_1
 {
-    public class ConcreteFacebookGroupMediator : FacebookGroupMediator
+    public class ConcreteFacebookGroupMediator : IFacebookGroupMediator
     {
         private List<User> usersList = new List<User>();
         public void RegisterUser(User user)

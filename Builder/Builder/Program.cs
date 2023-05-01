@@ -1,17 +1,27 @@
-﻿DocumentBuilder builder;
+﻿
+DocumentBuilder builder;
 
-DocumentConstructor constructor = new DocumentConstructor();
+//using a director
+DocumentDirector director = new DocumentDirector();
 
 builder = new WordBuilder();
-constructor.Construct(builder);
+director.Construct(builder);
 builder.Document.Show();
 
 builder = new ExcelBuilder();
-constructor.Construct(builder);
+director.Construct(builder);
 builder.Document.Show();
 
 builder = new HtmlBuilder();
-constructor.Construct(builder);
+director.Construct(builder);
+builder.Document.Show();
+
+//using builder directly, fluent interface
+
+builder = new HtmlBuilder();
+builder.BuildHeader()
+       .BuildBody()
+       .BuildFooter();
 builder.Document.Show();
 
 Console.ReadKey();

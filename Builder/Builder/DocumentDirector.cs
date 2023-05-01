@@ -1,4 +1,4 @@
-﻿class DocumentConstructor
+﻿class DocumentDirector
 {
 
     public void Construct(DocumentBuilder documentBuilder)

@@ -2,7 +2,7 @@
 
 namespace Mediator_1
 {
-    public interface FacebookGroupMediator
+    public interface IFacebookGroupMediator
     {
         void SendMessage(string msg, User user);
         void RegisterUser(User user);

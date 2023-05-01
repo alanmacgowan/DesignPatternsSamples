@@ -6,7 +6,8 @@ namespace Mediator_1
     {
         static void Main(string[] args)
         {
-            FacebookGroupMediator facebookMediator = new ConcreteFacebookGroupMediator();
+            IFacebookGroupMediator facebookMediator = new ConcreteFacebookGroupMediator();
+
             User Ram = new ConcreteUser(facebookMediator, "Ram");
             User Dave = new ConcreteUser(facebookMediator, "Dave");
             User Smith = new ConcreteUser(facebookMediator, "Smith");
@@ -15,6 +16,7 @@ namespace Mediator_1
             User Pam = new ConcreteUser(facebookMediator, "Pam");
             User Anurag = new ConcreteUser(facebookMediator, "Anurag");
             User John = new ConcreteUser(facebookMediator, "John");
+
             facebookMediator.RegisterUser(Ram);
             facebookMediator.RegisterUser(Dave);
             facebookMediator.RegisterUser(Smith);
@@ -23,8 +25,10 @@ namespace Mediator_1
             facebookMediator.RegisterUser(Pam);
             facebookMediator.RegisterUser(Anurag);
             facebookMediator.RegisterUser(John);
+
             Dave.Send("dotnettutorials.net - this website is very good to learn Design Pattern");
             Console.WriteLine();
+
             Rajesh.Send("What is Design Patterns? Please explain ");
             Console.Read();
         }
