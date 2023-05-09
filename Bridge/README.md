@@ -1,6 +1,6 @@
 ## Bridge
 
-Lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.
+Lets you split a large class or a set of closely related classes into two separate hierarchiesâ€”abstraction and implementationâ€”which can be developed independently of each other.
 
 ### Diagram
 ![image info](./Bridge_UML.gif)
@@ -11,4 +11,4 @@ Lets you split a large class or a set of closely related classes into two separa
 * If you need to be able to switch implementations at runtime.
 
 ### Resources
-* https://refactoring.guru/design-patterns/abstract-factory
+* https://refactoring.guru/design-patterns/bridge

@@ -3,7 +3,7 @@
 Separates the construction of a complex object from its representation so that the same construction process can create different representations.
 
 ### Diagram
-![image info](./builder.jpeg)
+![image info](./builder.png)
 
 ### When to use it
 * When you want your code to be able to create different representations of some product.

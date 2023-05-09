@@ -4,6 +4,7 @@ Repository with sample implementations of different Design Patterns in C#.
 * [AbstractFactory](AbstractFactory/)
 * [Adapter](Adapter/)
 * [Bridge](Bridge/)
+* [Builder](Builder/)
 * [Chain of Responsibility](Chain%20of%20Responsibility/)
 * [Command](Command/)
 * [Composite](Composite/)
