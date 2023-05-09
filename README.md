@@ -13,6 +13,7 @@ Repository with sample implementations of different Design Patterns in C#.
 * [FluentInterface](FluentInterface/)
 * [Flyweight](Flyweight/)
 * [Mediator](Mediator/)
+* [Null Object](NullObject/)
 * [Observer](Observer/)
 * [Prototype](Prototype/)
 * [Proxy](Proxy/)
@@ -33,6 +34,7 @@ Repository with sample implementations of different Design Patterns in C#.
 * https://www.c-sharpcorner.com/UploadFile/bd5be5/design-patterns-in-net/
 * https://sourcemaking.com/design_patterns
 * https://docs.microsoft.com/en-us/archive/msdn-magazine/2005/july/discovering-the-design-patterns-you-re-already-using-in-net
+* https://www.tutorialspoint.com/design_pattern/index.htm
 
 ### Videos
 * [Pluralsight: Design Patterns in C#](https://app.pluralsight.com/paths/skills/design-patterns-in-c)
